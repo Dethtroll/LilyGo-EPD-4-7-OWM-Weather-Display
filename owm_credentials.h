@@ -14,7 +14,7 @@ const char server[] = "api.openweathermap.org";
 String City             = "Volgograd";                     // Your home city See: http://bulk.openweathermap.org/sample/
 String Country          = "RU";                            // Your _ISO-3166-1_two-letter_country_code country code, on OWM find your nearest city and the country code is displayed
                                                            // https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes
-String Language         = "EN";                            // NOTE: Only the weather description is translated by OWM
+String Language         = "RU";                            // NOTE: Only the weather description is translated by OWM
                                                            // Examples: Arabic (AR) Czech (CZ) English (EN) Greek (EL) Persian(Farsi) (FA) Galician (GL) Hungarian (HU) Japanese (JA)
                                                            // Korean (KR) Latvian (LA) Lithuanian (LT) Macedonian (MK) Slovak (SK) Slovenian (SL) Vietnamese (VI)
 String Hemisphere       = "north";                         // or "south"  
