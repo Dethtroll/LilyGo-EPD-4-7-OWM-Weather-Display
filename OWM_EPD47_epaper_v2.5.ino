@@ -18,7 +18,7 @@
 
 #include "owm_credentials.h"
 #include "forecast_record.h"
-#include "lang_ru.h"
+#include "lang.h"
 
 #define SCREEN_WIDTH   EPD_WIDTH
 #define SCREEN_HEIGHT  EPD_HEIGHT
@@ -66,11 +66,15 @@ long SleepTimer      = 0;
 long Delta           = 30; // ESP32 rtc speed compensation, prevents display at xx:59:yy and then xx:00:yy (one minute later) to save power
 
 //fonts
-#include "opensans8b.h"
-#include "opensans10b.h"
-#include "opensans12b.h"
-#include "opensans18b.h"
-#include "opensans24b.h"
+#include "fonts/opensans8b.h"
+#include "fonts/opensans10b.h"
+#include "fonts/opensans12b.h"
+#include "fonts/opensans18b.h"
+#include "fonts/opensans24b.h"
+//#include "fonts/FreeSansBold6.h"
+//#include "fonts/FreeSansBold10.h"
+//#include "fonts/FreeSansBold12.h"
+//#include "fonts/FreeSansBold18.h"
 
 GFXfont  currentFont;
 uint8_t *framebuffer;
